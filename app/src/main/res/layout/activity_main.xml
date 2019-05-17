@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_total"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_debug"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false" />
+    <EditText
+        android:id="@+id/ed_targetId"
+        android:text="18408279234"
+        android:hint="请输入目标ID"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_loginwusy"
+        android:text="登录账号wusy"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_loginrxr"
+        android:text="登录账号rxr"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_exit"
+        android:text="退出登录"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_audiocall"
+        android:text="拨打语音"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_vediocall"
+        android:text="拨打视频"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_sendMessage"
+        android:text="发送消息"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
